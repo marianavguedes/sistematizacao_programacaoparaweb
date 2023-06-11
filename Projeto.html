@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pitchuquinha Acessórios</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a class="sobreAtalhos" href="#sobre">Sobre</a></li>
+        <li><a class="produtosAtalhos" href="#produtos">Produtos</a></li>
+        <li><a class="quemsomosAtalhos" href="#quemSomos">Quem Somos</a></li>
+        <li><a class="contatoAtalhos" href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="banner">
+  
+    <img src="./imagens/Pitchuquinhalogo.png" alt="">
+    <h3 class="subTitulo">Somos especialistas em deixar seus cabelos mais enfeitados e divertidos.</h3>
+    <a href="#contato" class="btnContato">Entre em contato</a>
+  </section>
+  
+
+  <section id="sobre">
+    <h2 class="sobreNos">Sobre Nós</h2>
+    <p class="somos">Somos uma empresa composta por mãe e filhas que adoravam laços, presilhas e acessórios. Encontramos a oportunidade em 2017 de deixar o sorriso das crianças mais alegre e mais animado ao enfeitar seus cabelos.</p>
+  </section>
+
+  <section id="produtos">
+    <h2 class="nossosProdutos">Nossos Produtos</h2>
+    <img src="./imagens/catalogo.png" alt="">
+    <br>
+    <br>
+    <h5 class="descricaoProdutos">Contamos com uma imensa variedade de presilhas, laços, tiaras e adereços voltados ao público infantojuvenil.</h5>
+  </section>
+
+  <section id="quemSomos">
+    <h2 class="pessoasProjeto">Quem Somos</h2>
+    <div class="divPessoas">
+      <div>
+        <img src="./imagens/pessoa1.png" alt="">
+        <h3>Mariana G.</h3>
+        <br>
+        <p>Desenvolvedora</p>
+      </div>
+      <div>
+        <img src="./imagens/pessoa2.png" alt="">
+        <h3>Sandra L.</h3>
+        <br>
+        <p>Diretora</p>
+      </div>
+      <div>
+        <img src="./imagens/pessoa3.png" alt="">
+        <h3>Natan T.</h3>
+        <br>
+        <p>Desenvolvedor</p>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="contato">
+    <h2 class="entreContato">Entre em Contato</h2>
+    <form>
+      <input type="text" name="nome" placeholder="Nome"> 
+      <br>
+      <input type="email" name="email" placeholder="E-mail"> 
+      <br>
+      <input type="text" name="cidade" placeholder="Cidade">
+      <br>
+      <select id="estado" name="estado">
+        <option value="" disabled selected>Selectione um Estado</option>
+        <option value="AC">Acre</option>
+        <option value="AL">Alagoas</option>
+        <option value="AP">Amapá</option>
+        <option value="AM">Amazonas</option>
+        <option value="BA">Bahia</option>
+        <option value="CE">Ceará</option>
+        <option value="DF">Distrito Federal</option>
+        <option value="ES">Espírito Santo</option>
+        <option value="GO">Goiás</option>
+        <option value="MA">Maranhão</option>
+        <option value="MT">Mato Grosso</option>
+        <option value="MS">Mato Grosso do Sul</option>
+        <option value="MG">Minas Gerais</option>
+        <option value="PA">Pará</option>
+        <option value="PB">Paraíba</option>
+        <option value="PR">Paraná</option>
+        <option value="PE">Pernambuco</option>
+        <option value="PI">Piauí</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="RN">Rio Grande do Norte</option>
+        <option value="RS">Rio Grande do Sul</option>
+        <option value="RO">Rondônia</option>
+        <option value="RR">Roraima</option>
+        <option value="SC">Santa Catarina</option>
+        <option value="SP">São Paulo</option>
+        <option value="SE">Sergipe</option>
+        <option value="TO">Tocantins</option>
+    </select>
+      <br>
+      <textarea name="mensagem" placeholder="Mensagem"></textarea>
+      <br>
+      <input type="submit" value="Enviar" class="btn btn-primary">
+    </form>
+  </section>
+
+  <footer>
+    <p class="direitos">&copy; 2023 Pitchuquinha Acessórios. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>

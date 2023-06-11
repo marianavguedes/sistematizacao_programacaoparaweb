@@ -1,0 +1,89 @@
+header {
+    background-color: #f7ab31;
+    font-style: oblique;
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+  }
+  
+  nav ul li a {
+    color: #f5dce6;
+    text-decoration: none;
+    margin-right: 10px;
+  }
+  
+  .btnContato{
+    display: inline-block;
+    background-color: #FF9500;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+  }
+  
+  section {
+    padding: 50px;
+    background-color: #F6EADB;
+    text-align: center;
+  }
+  
+  .subTitulo{
+    color: #508a30;
+  }
+  
+  .sobreAtalhos, .produtosAtalhos, .contatoAtalhos, .quemsomosAtalhos{
+    color: #ececeb;
+  }
+  
+  .sobreNos{
+    color:#FF9500;
+  }
+  
+  .somos{
+    color: #3b2604
+  }
+  
+  .nossosProdutos{
+    color:#FF9500;
+  }
+  
+  .pessoasProjeto {
+    color:#FF9500;
+  }
+  
+  .entreContato{
+    color:#FF9500;
+  }
+  
+  .descricaoProdutos {
+    color:#FF9500;
+  }
+  
+  .direitos{
+    color:#8a3a70;
+    text-align: center;
+  }
+  
+  .sobreAtalhos:hover, .produtosAtalhos:hover, .contatoAtalhos:hover, .quemsomosAtalhos:hover{
+    color: #508a30;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  .divPessoas  {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
